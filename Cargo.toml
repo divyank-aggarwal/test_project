@@ -1,0 +1,15 @@
+[package]
+name = "actix2"
+version = "0.1.0"
+edition = "2021"
+default-run = "actix2"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4.0.1"
+include_dir = "0.7.2"
+serde = {version = "1.0.1",features=["derive"]}
+derive_more = "0.99.17"
+env_logger = "0.9"
+actix-cors = "0.6.1"
